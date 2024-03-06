@@ -1,0 +1,52 @@
+---
+title: "Distance_and_phylogeny_tree"
+output: html_document
+date: "2024-03-05"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Loading in packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+
+```
+**converting .fasta to dnabin, then assigning model and ladderizing the tree**
+```{r}
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta")
+D <- dist.dna(dna, model="TN93")
+tre <- nj(D)
+tre
+tre <- ladderize(tre)
+plot(tre, cex=.4)
+title("Xylaria distance tree")
+```
+
+**Everything above here is script for the distance based tree, everything below here is script for the parsimony based tree**
+```{r}
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta")
+dna2 <- as.phyDat(dna)
+```
+**starting tree for the search on tree space and compute the parsimony score of this tree**
+```{r}
+tre.ini <- nj(dist.dna(dna,model="raw"))
+parsimony(tre.ini, dna2)
+```
+**Searching for the tree with maximum parsimony:**
+```{r}
+tre.pars <- optim.parsimony(tre.ini, dna2)
+
+```
+**Plotting tree**
+```{r}
+plot(tre.pars, cex=0.4)
+title("Xylaria parsimony tree")
+```
+
