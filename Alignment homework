@@ -1,0 +1,23 @@
+#   https://academic.oup.com/femsle/article/187/1/89/474744
+
+#   I did a nucleotide blast of accession number AF163036 on ncbi wich returned many closely related organisms, I will list them here:
+#Xylaria hypoxylon CBS 590.72
+#Xylaria polymorpha strain NW-FVA2229
+#Xylaria polymorpha strain DSM 105756
+#Xylaria polymorpha strain FeC105
+#Xylaria polymorpha isolate TW07032019_02
+#Xylaria sp. isolate MBD_3013
+#Xylaria schweinitzii voucher HMJAU 22751
+#Xylaria scruposa isolate 866
+#Xylaria longipes strain NW-FVA2228
+#Xylaria corniformis
+
+#I then downloaded the unaligned fasta files from each of these species and named the file xylaria_dump.txt.  in the terminal I used the following command to change this file to a fasta file
+
+mv xylaria_dump.txt xylaria_dump.fasta
+#Since this file is unaligned I used the following to align the files
+
+mafft --auto xylaria_dump.fasta > xylaria_dump_aligned.fasta
+
+#the alignment worked correctly producing an aligned file, this file can be found in my data folder in the follwoing repository
+# https://github.com/bookworm0829/final-project-repository.git#
