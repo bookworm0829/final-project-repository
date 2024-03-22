@@ -1,0 +1,23 @@
+
+RAxML-NG v. 1.2.1 released on 22.12.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 14-Mar-2024 13:29:35 as follows:
+
+/Users/robertoregalado/Desktop/final-project-repository/Software/raxml-ng ./raxml-ng --check --msa xylaria_dump_aligned.fasta --model GTR+G
+
+Analysis options:
+  run mode: Alignment validation
+  start tree(s): 
+  random seed: 1710440975
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+
+ERROR: Alignment file not found: xylaria_dump_aligned.fasta
+

@@ -1,0 +1,42 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Keller-lab---robertos-MacBook-Air.local (SSE4.2, 8 GB RAM)
+Command: /Users/robertoregalado/Desktop/final-project-repository/iqtree2 -s xylaria_dump_aligned.fasta -spp xylaria_dump_aligned.nex -bb 1000 -nt AUTO
+Seed:    859468 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 21 15:56:27 2024
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading partition model file xylaria_dump_aligned.nex ...
+Skipping unknown block (TAXA)...
+Skipping unknown block (CHARACTERS)...
+Reading alignment file xylaria_dump_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.000205994 secs using 91.26% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00122309 secs using 81.35% CPU
+Alignment has 11 sequences with 986 columns, 141 distinct patterns
+48 parsimony-informative, 38 singleton sites, 900 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.50611e-05 secs using 703.5% CPU
+   1  AF163036.1   47.97%    passed     82.12%
+   2  MG098262.1   35.90%    passed     93.24%
+   3  MW447065.1   37.42%    passed     96.26%
+   4  MT661488.1    0.51%    passed     45.70%
+   5  AY909012.1   47.36%    passed     84.19%
+   6  MN846336.1   39.96%    passed     97.66%
+   7  MK595684.1   21.30%    passed     95.69%
+   8  JX256828.1   42.29%    passed     94.83%
+   9  KP133498.1   37.53%    passed     96.26%
+  10  MG098261.1   38.13%    passed     91.81%
+  11  MN219591.1   36.92%    passed     75.49%
+****  TOTAL        35.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 0 partitions...
+ERROR: No partition found in SETS block. An example syntax looks like: 
+ERROR: #nexus
+ERROR: begin sets;
+ERROR:   charset part1=1-100;
+ERROR:   charset part2=101-300;
+ERROR: end;

@@ -1,0 +1,231 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Keller-lab---robertos-MacBook-Air.local (SSE4.2, 8 GB RAM)
+Command: /Users/robertoregalado/Desktop/final-project-repository/Software/iqtree2 -s /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta -spp /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta -bb 1000 -nt AUTO -m MFP+MERGE -rcluster 10 -pre xylaria_dump_aligned.merge
+Seed:    998283 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 21 10:47:26 2024
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading partition model file /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta ...
+Reading alignment file /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.000200033 secs using 90.48% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000809908 secs using 524.4% CPU
+Alignment has 11 sequences with 986 columns, 141 distinct patterns
+48 parsimony-informative, 38 singleton sites, 900 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.00272e-05 secs using 234.7% CPU
+   1  AF163036.1   47.97%    passed     82.12%
+   2  MG098262.1   35.90%    passed     93.24%
+   3  MW447065.1   37.42%    passed     96.26%
+   4  MT661488.1    0.51%    passed     45.70%
+   5  AY909012.1   47.36%    passed     84.19%
+   6  MN846336.1   39.96%    passed     97.66%
+   7  MK595684.1   21.30%    passed     95.69%
+   8  JX256828.1   42.29%    passed     94.83%
+   9  KP133498.1   37.53%    passed     96.26%
+  10  MG098261.1   38.13%    passed     91.81%
+  11  MN219591.1   36.92%    passed     75.49%
+****  TOTAL        35.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+ERROR: Please specify alignment positions for partitionpartial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------ccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggnnggctgcatctccctgtgaggtcc
+ERROR: taccctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttgaaattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaattta--gaatcatcgaatctttgaacgcagattgcgcccactagta
+ERROR: ttctagtggggatgcctgttcgagcgatcatttacaacccttaccccctgttgcttagtg
+ERROR: ttggag--ctacggtcatcgttagctcctcaaatgtagtg--cgagttggttcacactct
+ERROR: agacgtagtggtttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccct
+ERROR: aaaatttt----------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MG098262.1 Xylaria polymorpha strain NW-FVA2229 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partia
+ERROR: ------------------------------------------------------------
+ERROR: -------------------------------------ttggtcatttagaggaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcatctccctgtgaggtcc
+ERROR: taccctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttgaaattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccca
+ERROR: aaaattttaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggaggaa------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MW447065.1 Xylaria polymorpha strain FeC105 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------------------------------ggaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcatctccctgtgaggtcc
+ERROR: taccctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttgaaattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccca
+ERROR: aaaa-tttaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggagga-------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MT661488.1 Xylaria polymorpha strain DSM 105756 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partia
+ERROR: cgcccgtcgctactaccgattgaatggctcagtgaggcttccggactggcccagaggagt
+ERROR: cggcaacgacacctcagggccggaaagttatccaaactcggtcatttagaggaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcatctccctgtgaggtcc
+ERROR: taccctgtaggatgttacgctgtaaggcttagcgggaagatgcattaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttg-aattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccca
+ERROR: aaaattttaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaaca
+ERROR: gctcaaatttgaaatctggccctcgggtccgagttgtaatttgtagaggatgc-ttttgg
+ERROR: cgcggtgccttccgagttccctggaacgggacgccttagagggtgagagccccgtatggt
+ERROR: tggacaccaagcctctgtatagctccttcgacgagtcgagtagtttgggaatgctgctct
+ERROR: aaatgggaggtaaatttcttctaaag
+ERROR: >AY909012.1 Xylaria hypoxylon strain CBS 590.72 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ---------------------------------------cattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcatctccctgtgaggtcc
+ERROR: taccctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttgaaattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccca
+ERROR: aaaattttaaaggttgacctc---------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MN846336.1 Xylaria polymorpha isolate TW07032019_02 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, pa
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------tccgttggtgaaccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcgtctccctgtgaggtct
+ERROR: taccctgtaggacgctacgctgtaaggcttatcgggaagatgcactaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttg-aattctgaggttataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggttaccg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaaccccct
+ERROR: aaaattttaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggagg--------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MK595684.1 Xylaria sp. isolate MBD_3013 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: -----------------------------------ggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcgtctccctgtgatgtct
+ERROR: taccctgtaggacgctacgctgtaaggcttatcgggaagatgcactaaagcctgccggcg
+ERROR: gcccattaaactctgtttatttttg-aattctgaggttataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggttacag-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggactggtccctcgccgtaaaacccccc
+ERROR: aaaattttaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaaca
+ERROR: gctcaaatttgaaatctggccctcgggtccgagttgtaatttgtagaggatgctttttgg
+ERROR: cgcggtgccttccgagttccctggaacgggacgccttagagggtgagagccccgtatggt
+ERROR: tggacaccaagcctctgtatagctcc----------------------------------
+ERROR: -----------------cttcgacga
+ERROR: >JX256828.1 Xylaria schweinitzii voucher HMJAU 22751 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------acaaggtctccgttggtgaaccagcggagggatcattaaagagttttataactc
+ERROR: ccaaacccatgtgaacataccgtacgttgcctcggcaggctgcgtctccctgtgaggtcc
+ERROR: tacc---------------ctgtaaggcttatcgggaagatgcactaaagcctgccggcg
+ERROR: gcccattacactctgtttatttttg-aattctgaggctataa-taaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccactagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactct
+ERROR: agacgtagtaatttttatctcgcctgtgagttggaccggtccctcgccgtaaaacccccc
+ERROR: aaaattttaaaggttgacctcggatcaggtaggaatrccsgctkaacttaagcatat---
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >KP133498.1 Xylaria scruposa isolate 866 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence
+ERROR: t-----------------------------------------------------------
+ERROR: ------------------------------------cttggtcatttagaggaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttctataactc
+ERROR: cc-aacccatgtgaacataccgtacgttgcctcggcatgctgcatc--------------
+ERROR: taccctgtgagatcctaccctgtaggacttacctgggaggtgcgctaaagtctgccggcg
+ERROR: gcccaactaactctgtctatttttg-aattctgaggttataa-taaatatgttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaatttagtgaatcatcgaatctttgaacgcacattgcgcccattagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggt-atcg-tagctcctcaaatatagtggcggagtcggttcacactct
+ERROR: agacgtagtagattctatctcgcctttgagttggaccggtcccctgccgtaaaacccccc
+ERROR: tattttataaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggagga-------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MG098261.1 Xylaria longipes strain NW-FVA2228 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial 
+ERROR: t-----------------------------------------------------------
+ERROR: ------------------------------------cttggtcaattagaggaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttctataactc
+ERROR: ccaaacccatgtgaacataccttacgttgcctcggcaggtcgtgcc--------------
+ERROR: taccccgtagcgtcctaccctgtaggacctacccggtagacgcgggtaagcctgccggcg
+ERROR: gcccacgaaactctgtttagtattg-aattctgaacctataactaaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccattagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcccctgttgcttagtg
+ERROR: ttgggagcctacggtaatag-tagctcctgaaagttagtggcggagtcggttcacactct
+ERROR: agacgtagtagattttatctcgcctatcagttggaccggtcccttgccgtaaaaccacct
+ERROR: aat-ttctaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taa---------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------
+ERROR: >MN219591.1 Xylaria corniformis small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence
+ERROR: ------------------------------------------------------------
+ERROR: ---------------------------------------------------gaagtaaaa
+ERROR: gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaaagagttctataactc
+ERROR: ccaaacccatgtgaacataccctacgttgcctcggcaggtcgtgcc--------------
+ERROR: taccccgtagcgccctaccctgtaggacctacccggtagttgcgggtaagcctgccggcg
+ERROR: gcccacgaaactctgtttagtattg-aattctgaacctataactaaataagttaaaactt
+ERROR: tcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaa
+ERROR: tgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccattagta
+ERROR: ttctagtgggcatgcctgttcgagcg-tcatttcaacccttaagcctctgttgcttagtg
+ERROR: ttgggagcctacggtaatag-tagctcctgaaagttagtggcggagtcggttcacactct
+ERROR: agacgtagtagattttatctcgcctatcagttggaccggtcccctgccgtaaaaccccct
+ERROR: aat-ttctaaaggttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa
+ERROR: taagcggaggaaaagaaaccaacagggattg-----------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: ------------------------------------------------------------
+ERROR: --------------------------

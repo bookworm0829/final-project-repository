@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Keller-lab---robertos-MacBook-Air.local (SSE4.2, 8 GB RAM)
+Command: /Users/robertoregalado/Desktop/final-project-repository/Software/iqtree2 -s /Users/robertoregalado/Desktop/final-project-repository/turtle.fa.log
+Seed:    936376 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 14 11:39:51 2024
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/robertoregalado/Desktop/final-project-repository/turtle.fa.log ... ERROR: Unknown sequence format, please use PHYLIP, FASTA, CLUSTAL, MSF, or NEXUS format

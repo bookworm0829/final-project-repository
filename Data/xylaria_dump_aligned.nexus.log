@@ -1,0 +1,12 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Keller-lab---robertos-MacBook-Air.local (SSE4.2, 8 GB RAM)
+Command: /Users/robertoregalado/Desktop/final-project-repository/Software/iqtree2 /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.fasta -spp /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.nexus -bb 1000 -nt AUTO
+Seed:    557594 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 21 15:31:44 2024
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading partition model file /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.nexus ...
+ERROR: File not found /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_dump_aligned.nexus
