@@ -1,0 +1,62 @@
+#NEXUS
+[ID: 0450456733]
+[generation: 998000]
+
+begin trees;
+	translate
+       1 NR_159859.1_Neurospora_cratophora_CBS_558.94_ITS_region__from_TYPE_material,
+       2 MN219591.1_Xylaria_corniformis_small_subunit_ribosomal_RNA_gene__partial_sequence__internal_transc,
+       3 MG098261.1_Xylaria_longipes_strain_NW-FVA2228_small_subunit_ribosomal_RNA_gene__partial_sequence__,
+       4 KP133498.1_Xylaria_scruposa_isolate_866_18S_ribosomal_RNA_gene__partial_sequence__internal_transcr,
+       5 AF163036.1_Xylaria_hypoxylon_CBS_590.72_internal_transcribed_spacer_1__partial_sequence__5.8S_ribo,
+       6 JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751_18S_ribosomal_RNA_gene__partial_sequence__inte,
+       7 MT661488.1_Xylaria_polymorpha_strain_DSM_105756_small_subunit_ribosomal_RNA_gene__partial_sequence,
+       8 MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229_small_subunit_ribosomal_RNA_gene__partial_sequence,
+       9 MW447065.1_Xylaria_polymorpha_strain_FeC105_18S_ribosomal_RNA_gene__partial_sequence__internal_tra,
+      10 MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02_small_subunit_ribosomal_RNA_gene__partial_sequ,
+      11 MK595684.1_Xylaria_sp__isolate_MBD_3013_internal_transcribed_spacer_1__partial_sequence__5.8S_ribo;
+	tree mcmc.tree_1 = (((11:4.514255527310208e-03,10:1.571709854993246e-03):6.768881768050952e-03,(6:5.253726167920731e-03,(8:1.357145023132868e-03,(9:1.701678701270370e-04,(5:1.554857938090191e-02,7:5.493758721096084e-03):1.041905147645140e-03):2.494716037072483e-07):1.687052796413202e-02):4.164376343604679e-03):2.230982908732229e-02,(4:1.744894015314059e-02,(2:8.355732006503514e-03,3:4.634893837037127e-03):5.421041321228531e-02):6.423465692559270e-03,1:3.276459589982940e-01);
+	tree mcmc.tree_2 = (4:1.995919737339286e-02,((3:1.698002946107205e-03,2:7.281386921156732e-03):5.405657615116826e-02,((((7:1.830171185676686e-03,9:6.560544811292762e-03):2.057828687087086e-03,8:8.464683463027249e-05):6.230244759195445e-03,5:1.353865155152585e-02):9.211381281594837e-03,((10:7.938925843204024e-04,11:5.435232548820745e-03):4.742857018220429e-03,6:1.142948594249157e-02):5.756182670805510e-03):2.096980062957898e-02):9.741318095243486e-03,1:5.774001101522714e-01);
+	tree mcmc.tree_3 = (((6:1.161355011092312e-02,((5:1.811672321703434e-02,8:1.033761573162352e-03):1.179990242551473e-03,(7:1.130828263556245e-02,9:8.564244311413178e-05):1.696146925321515e-04):1.480682302668792e-02):7.594422906293107e-03,(10:6.156337775213590e-03,11:8.849660640583647e-03):4.416165166054075e-03):5.417240723009137e-03,(4:2.177333291697832e-02,(3:9.997123802934181e-03,2:8.314494294534493e-03):7.552590465638537e-02):4.643311788178235e-02,1:3.199695808110004e-01);
+end;
+
+begin mrbayes;
+	startvals
+		Tau(1,1)=mcmc.tree_1
+		Tau(1,3)=mcmc.tree_2
+		Tau(1,2)=mcmc.tree_3
+		V(1,1)=mcmc.tree_1
+		V(1,3)=mcmc.tree_2
+		V(1,2)=mcmc.tree_3
+		Tratio(1,1)=(2.437637395680647e+00)
+		Tratio(1,3)=(2.646366722289826e+00)
+		Tratio(1,2)=(2.813785104265920e+00)
+		Pi(1,1)=(2.531845097060747e-01,2.710398430201483e-01,2.358478664734968e-01,2.399277808002802e-01)
+		Pi(1,3)=(2.612584537427915e-01,2.451176984834717e-01,2.484380019418644e-01,2.451858458318723e-01)
+		Pi(1,2)=(2.589871445520331e-01,2.543449475044847e-01,2.471391972724170e-01,2.395287106710652e-01)
+		Alpha(1,1)=(6.193207435516438e-01)
+		Alpha(1,3)=(3.819189731128407e-01)
+		Alpha(1,2)=(5.026411060133513e-01)
+	;
+	propset
+		Dirichlet(Tratio)$alpha(1,1)=1.161181373648830e+01
+		Dirichlet(Tratio)$alpha(1,3)=9.318698801970831e+00
+		Dirichlet(Tratio)$alpha(1,2)=1.061239869133750e+01
+		Dirichlet(Pi)$alpha(1,1)=1.173510870991807e+02
+		Dirichlet(Pi)$alpha(1,3)=1.030454533953517e+02
+		Dirichlet(Pi)$alpha(1,2)=1.061836546545359e+02
+		Slider(Pi)$delta(1,1)=2.418499195314504e-01
+		Slider(Pi)$delta(1,3)=2.699717615152007e-01
+		Slider(Pi)$delta(1,2)=2.568050833375484e-01
+		Multiplier(Alpha)$lambda(1,1)=3.191294790364956e+00
+		Multiplier(Alpha)$lambda(1,3)=3.223367836222959e+00
+		Multiplier(Alpha)$lambda(1,2)=3.191294790364956e+00
+		Multiplier(V)$lambda(1,1)=7.664768119279258e+00
+		Multiplier(V)$lambda(1,3)=7.898195060213677e+00
+		Multiplier(V)$lambda(1,2)=7.898195060213677e+00
+		TLMultiplier(V)$lambda(1,1)=1.101457452870644e+00
+		TLMultiplier(V)$lambda(1,3)=1.112527284308096e+00
+		TLMultiplier(V)$lambda(1,2)=1.157930384090865e+00
+	;
+end;
+

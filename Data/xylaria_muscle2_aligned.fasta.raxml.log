@@ -1,0 +1,141 @@
+
+RAxML-NG v. 1.2.1 released on 22.12.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M2, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 24-Apr-2024 19:49:18 as follows:
+
+./raxml-ng --msa /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta --model GTR+G
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1714006158
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta
+[00:00:00] Loaded alignment with 11 taxa and 1002 sites
+
+Alignment comprises 1 partitions and 170 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1002 / 170
+Gaps: 36.10 %
+Invariant sites: 82.14 %
+
+
+NOTE: Binary MSA file created: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.rba
+
+Parallelization scheme autoconfig: 8 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 11 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 11 taxa
+Parallel parsimony with 8 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 170 / 2720
+[00:00:00] Data distribution: max. searches per worker: 3
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -3196.626077] Initial branch length optimization
+[00:00:00 -2606.060005] Model parameter optimization (eps = 10.000000)
+[00:00:00 -2533.194561] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -2371.421568] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -2370.092759] SPR radius for FAST iterations: 10 (autodetect)
+[00:00:00 -2370.092759] Model parameter optimization (eps = 3.000000)
+[00:00:00 -2363.384033] FAST spr round 1 (radius: 10)
+[00:00:00 -2361.409019] Model parameter optimization (eps = 1.000000)
+[00:00:00 -2360.953285] SLOW spr round 1 (radius: 5)
+[00:00:00] [worker #5] ML tree search #6, logLikelihood: -2360.885930
+[00:00:00] [worker #6] ML tree search #7, logLikelihood: -2360.880836
+[00:00:00] [worker #3] ML tree search #4, logLikelihood: -2360.895749
+[00:00:00] [worker #1] ML tree search #2, logLikelihood: -2360.888313
+[00:00:00 -2360.951632] SLOW spr round 2 (radius: 10)
+[00:00:00] [worker #2] ML tree search #3, logLikelihood: -2360.881427
+[00:00:00] [worker #7] ML tree search #8, logLikelihood: -2360.892804
+[00:00:00 -2360.951620] Model parameter optimization (eps = 0.100000)
+[00:00:00] [worker #4] ML tree search #5, logLikelihood: -2360.890187
+
+[00:00:00] [worker #0] ML tree search #1, logLikelihood: -2360.890512
+
+[00:00:00 -3197.878747] Initial branch length optimization
+[00:00:00 -2600.350681] Model parameter optimization (eps = 10.000000)
+[00:00:00 -2527.226738] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -2369.811014] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -2369.306881] SPR radius for FAST iterations: 10 (autodetect)
+[00:00:00 -2369.306881] Model parameter optimization (eps = 3.000000)
+[00:00:00 -2363.308051] FAST spr round 1 (radius: 10)
+[00:00:00 -2361.351644] Model parameter optimization (eps = 1.000000)
+[00:00:00 -2360.952889] SLOW spr round 1 (radius: 5)
+[00:00:00] [worker #6] ML tree search #15, logLikelihood: -2360.876817
+[00:00:00] [worker #5] ML tree search #14, logLikelihood: -2360.877076
+[00:00:00] [worker #2] ML tree search #11, logLikelihood: -2360.877066
+[00:00:00] [worker #7] ML tree search #16, logLikelihood: -2360.877013
+[00:00:00] [worker #3] ML tree search #12, logLikelihood: -2360.876817
+[00:00:00 -2360.950949] SLOW spr round 2 (radius: 10)
+[00:00:00] [worker #4] ML tree search #13, logLikelihood: -2360.878926
+[00:00:00 -2360.950894] Model parameter optimization (eps = 0.100000)
+[00:00:00] [worker #1] ML tree search #10, logLikelihood: -2360.884370
+
+[00:00:00] [worker #0] ML tree search #9, logLikelihood: -2360.890876
+
+[00:00:00 -2981.641085] Initial branch length optimization
+[00:00:00 -2392.530001] Model parameter optimization (eps = 10.000000)
+[00:00:00 -2362.696340] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -2361.069935] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -2361.006482] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:00 -2361.006482] Model parameter optimization (eps = 3.000000)
+[00:00:00 -2360.882794] FAST spr round 1 (radius: 5)
+[00:00:00 -2360.882003] Model parameter optimization (eps = 1.000000)
+[00:00:00 -2360.877727] SLOW spr round 1 (radius: 5)
+[00:00:00] [worker #3] ML tree search #20, logLikelihood: -2360.877043
+[00:00:00] [worker #2] ML tree search #19, logLikelihood: -2360.876827
+[00:00:00 -2360.877655] SLOW spr round 2 (radius: 10)
+[00:00:00] [worker #1] ML tree search #18, logLikelihood: -2360.877512
+[00:00:00 -2360.877640] Model parameter optimization (eps = 0.100000)
+
+[00:00:00] [worker #0] ML tree search #17, logLikelihood: -2360.876949
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.524395 (ML),  weights&rates: (0.250000,0.037994) (0.250000,0.267544) (0.250000,0.837238) (0.250000,2.857225) 
+   Base frequencies (ML): 0.252985 0.244599 0.258044 0.244371 
+   Substitution rates (ML): 0.983698 2.338838 1.843304 1.720468 6.016989 1.000000 
+
+
+Final LogLikelihood: -2360.876817
+
+AIC score: 4777.753633 / AICc score: 4779.422698 / BIC score: 4915.226725
+Free parameters (model + branch lengths): 28
+
+WARNING: Best ML tree contains 1 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.bestTreeCollapsed
+Best ML tree saved to: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.bestTree
+All ML trees saved to: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.mlTrees
+Optimized model saved to: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.bestModel
+
+Execution log saved to: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.log
+
+Analysis started: 24-Apr-2024 19:49:18 / finished: 24-Apr-2024 19:49:18
+
+Elapsed time: 0.522 seconds
+

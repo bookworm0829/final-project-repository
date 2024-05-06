@@ -1,0 +1,165 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 109853
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 11 sequences with 1002 nucleotide sites
+Number of constant sites: 823 (= 82.1357% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 823 (= 82.1357% of all sites)
+Number of parsimony informative sites: 48
+Number of distinct site patterns: 170
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TNe+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.7372
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.2600
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.7477    0.2001    0.3475    0.2001
+  C    0.2001    -1.252    0.2001    0.8522
+  G    0.3475    0.2001   -0.7477    0.2001
+  T    0.2001    0.8522    0.2001    -1.252
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5071
+
+ Category  Relative_rate  Proportion
+  1         0.03471        0.25
+  2         0.2565         0.25
+  3         0.8254         0.25
+  4         2.883          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2362.8761 (s.e. 64.4131)
+Unconstrained log-likelihood (without tree): -3891.0873
+Number of free parameters (#branches + #model parameters): 22
+Akaike information criterion (AIC) score: 4769.7523
+Corrected Akaike information criterion (AICc) score: 4770.7860
+Bayesian information criterion (BIC) score: 4877.7669
+
+Total tree length (sum of branch lengths): 0.5787
+Sum of internal branch lengths: 0.1050 (18.1388% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NR_159859.1' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-----------------------------------------------------------NR_159859.1
+|
+|           +--MN219591.1
+|  +--------| (100)
+|  |        +--MG098261.1
++--| (74)
+|  +---KP133498.1
+|
+|        +--AF163036.1
+|     +--| (54)
+|     |  |     +--MT661488.1
+|     |  |  +**| (51)
+|     |  |  |  +**MW447065.1
+|     |  +--| (73)
+|     |     +**MG098262.1
+|  +--| (43)
+|  |  +--JX256828.1
++--| (56)
+   |  +--MN846336.1
+   +--| (88)
+      +--MK595684.1
+
+Tree in newick format:
+
+(NR_159859.1:0.3942770631,((MN219591.1:0.0071368179,MG098261.1:0.0050561306)100:0.0591959688,KP133498.1:0.0297839271)74:0.0181509244,(((AF163036.1:0.0195406072,((MT661488.1:0.0039406562,MW447065.1:0.0000010000)51:0.0000010000,MG098262.1:0.0000010000)73:0.0010337861)54:0.0079691695,JX256828.1:0.0058538627)43:0.0047772252,(MN846336.1:0.0013370953,MK595684.1:0.0067626886)88:0.0048867255)56:0.0089456222);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2362.879680
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------NR_159859.1
+|
+|           +--MN219591.1
+|  +--------| (100)
+|  |        +--MG098261.1
++--| (74)
+|  +---KP133498.1
+|
+|        +--AF163036.1
+|     +--| (54)
+|     |  |     +--MT661488.1
+|     |  |  +--| (51)
+|     |  |  |  +--MW447065.1
+|     |  +--| (73)
+|     |     +--MG098262.1
+|  +--| (43)
+|  |  +--JX256828.1
++--| (56)
+   |  +--MN846336.1
+   +--| (88)
+      +--MK595684.1
+
+
+Consensus tree in newick format: 
+
+(NR_159859.1:0.3939524638,((MN219591.1:0.0071378034,MG098261.1:0.0050541585)100:0.0592030732,KP133498.1:0.0297630433)74:0.0176031322,(((AF163036.1:0.0195384733,((MT661488.1:0.0039404804,MW447065.1:0.0000029511)51:0.0000022427,MG098262.1:0.0000029511)73:0.0010326441)54:0.0079698672,JX256828.1:0.0058535248)43:0.0047508461,(MN846336.1:0.0013373782,MK595684.1:0.0067629835)88:0.0049069045)56:0.0095731009);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.treefile -m "TNe{1.73721,4.25996}+FQ+G4{0.50711}" --length 1002
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat May  4 21:07:12 2024
+Total CPU time used: 0.688034 seconds (0h:0m:0s)
+Total wall-clock time used: 0.7611670494 seconds (0h:0m:0s)
+

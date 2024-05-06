@@ -1,0 +1,34 @@
+#NEXUS
+[ID: 1581996124]
+begin taxa;
+	dimensions ntax=11;
+	taxlabels
+		NR_159859.1_Neurospora_cratophora_CBS_558.94
+		MN219591.1_Xylaria_corniformis_small_subunit_ribosomal_RNA_gene__partial_sequence__internal_transc
+		MG098261.1_Xylaria_longipes_strain_NW-FVA2228_small_subunit_ribosomal_RNA_gene__partial_sequence__
+		KP133498.1_Xylaria_scruposa_isolate_866_18S_ribosomal_RNA_gene__partial_sequence__internal_transcr
+		AF163036.1_Xylaria_hypoxylon_CBS_590.72_internal_transcribed_spacer_1__partial_sequence__5.8S_ribo
+		JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751_18S_ribosomal_RNA_gene__partial_sequence__inte
+		MT661488.1_Xylaria_polymorpha_strain_DSM_105756_small_subunit_ribosomal_RNA_gene__partial_sequence
+		MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229_small_subunit_ribosomal_RNA_gene__partial_sequence
+		MW447065.1_Xylaria_polymorpha_strain_FeC105_18S_ribosomal_RNA_gene__partial_sequence__internal_tra
+		MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02_small_subunit_ribosomal_RNA_gene__partial_sequ
+		MK595684.1_Xylaria_sp__isolate_MBD_3013_internal_transcribed_spacer_1__partial_sequence__5.8S_ribo
+		;
+end;
+begin trees;
+	translate
+		1	NR_159859.1_Neurospora_cratophora_CBS_558.94
+		2	MN219591.1_Xylaria_corniformis_small
+		3	MG098261.1_Xylaria_longipes_strain_NW-FVA2228
+		4	KP133498.1_Xylaria_scruposa_isolate_866
+		5	AF163036.1_Xylaria_hypoxylon_CBS_590.72
+		6	JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751
+		7	MT661488.1_Xylaria_polymorpha_strain_DSM_105756
+		8	MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229
+		9	MW447065.1_Xylaria_polymorpha_strain_FeC105
+		10	MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02
+		11	MK595684.1_Xylaria_sp__isolate_MBD_3013
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+00,prob(percent)="100"]:3.807866e-01[&length_mean=3.88439086e-01,length_median=3.80786600e-01,length_95%HPD={2.69002100e-01,5.16447500e-01}],(((5[&prob=1.00000000e+00,prob(percent)="100"]:2.110964e-02[&length_mean=2.17452566e-02,length_median=2.11096400e-02,length_95%HPD={9.58247600e-03,3.59175400e-02}],7[&prob=1.00000000e+00,prob(percent)="100"]:4.284528e-03[&length_mean=4.84974051e-03,length_median=4.28452800e-03,length_95%HPD={2.34140300e-04,1.05196300e-02}],8[&prob=1.00000000e+00,prob(percent)="100"]:1.139188e-03[&length_mean=1.64440532e-03,length_median=1.13918800e-03,length_95%HPD={5.52239300e-08,4.97937400e-03}],9[&prob=1.00000000e+00,prob(percent)="100"]:1.147330e-03[&length_mean=1.66117880e-03,length_median=1.14733000e-03,length_95%HPD={3.51478400e-08,4.99158500e-03}])[&prob=8.88161491e-01,prob(percent)="89"]:8.281153e-03[&length_mean=8.83868628e-03,length_median=8.28115300e-03,length_95%HPD={1.45352300e-03,1.76192400e-02}],6[&prob=1.00000000e+00,prob(percent)="100"]:7.087363e-03[&length_mean=7.68370963e-03,length_median=7.08736300e-03,length_95%HPD={1.22422600e-03,1.50370700e-02}])[&prob=6.03071959e-01,prob(percent)="60"]:5.050177e-03[&length_mean=5.73333168e-03,length_median=5.05017700e-03,length_95%HPD={8.77830500e-07,1.31007500e-02}],(10[&prob=1.00000000e+00,prob(percent)="100"]:2.609812e-03[&length_mean=3.21358548e-03,length_median=2.60981200e-03,length_95%HPD={1.53199400e-06,8.14718700e-03}],11[&prob=1.00000000e+00,prob(percent)="100"]:7.101116e-03[&length_mean=7.72660376e-03,length_median=7.10111600e-03,length_95%HPD={1.64339700e-03,1.54560800e-02}])[&prob=9.32747563e-01,prob(percent)="93"]:7.095444e-03[&length_mean=7.71520458e-03,length_median=7.09544400e-03,length_95%HPD={7.12509200e-05,1.59566700e-02}])[&prob=7.42216770e-01,prob(percent)="74"]:2.037991e-02[&length_mean=2.05538987e-02,length_median=2.03799100e-02,length_95%HPD={3.80987300e-05,3.92153200e-02}],((2[&prob=1.00000000e+00,prob(percent)="100"]:8.128385e-03[&length_mean=8.78527722e-03,length_median=8.12838500e-03,length_95%HPD={1.61726100e-03,1.77056300e-02}],3[&prob=1.00000000e+00,prob(percent)="100"]:6.221490e-03[&length_mean=6.99331146e-03,length_median=6.22149000e-03,length_95%HPD={5.41612700e-04,1.50361800e-02}])[&prob=1.00000000e+00,prob(percent)="100"]:5.891946e-02[&length_mean=5.95920146e-02,length_median=5.89194600e-02,length_95%HPD={3.56880900e-02,8.38684800e-02}],4[&prob=1.00000000e+00,prob(percent)="100"]:3.052831e-02[&length_mean=3.12373016e-02,length_median=3.05283100e-02,length_95%HPD={1.38278000e-02,4.96019100e-02}])[&prob=7.25430328e-01,prob(percent)="73"]:1.965865e-02[&length_mean=2.01586354e-02,length_median=1.96586500e-02,length_95%HPD={3.23001600e-06,4.00027400e-02}]);
+end;

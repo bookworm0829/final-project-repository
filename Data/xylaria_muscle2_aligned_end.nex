@@ -1,0 +1,173 @@
+#NEXUS
+[Data written by write.nexus.data.R, Thu Apr 25 15:29:35 2024]
+BEGIN DATA;
+  DIMENSIONS NTAX=11 NCHAR=1002;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             --------------------------------------------------------------------------------
+    MN219591.1_Xylaria_corniformis                           --------------------------------------------------------------------------------
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            --------------------------------------------------------------------------------
+    KP133498.1_Xylaria_scruposa_isolate_866                  --------------------------------------------------------------------------------
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  --------------------------------------------------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      --------------------------------------------------------------------------------
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          cgcccgtcgctactaccgattgaatggctcagtgaggcttccggactggcccagaggagtcggcaacgacacctcagggc
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          --------------------------------------------------------------------------------
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              --------------------------------------------------------------------------------
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      --------------------------------------------------------------------------------
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  --------------------------------------------------------------------------------
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             -----------------------------------------------------------------------------atc
+    MN219591.1_Xylaria_corniformis                           -------------------------------gaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            ---------------tcttggtcaattagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    KP133498.1_Xylaria_scruposa_isolate_866                  ---------------tcttggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  ------------------------------------------------------------------ccagcggagggatc
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      ----------------------------------------------acaaggtctccgttggtgaaccagcggagggatc
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          cggaaagttatccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          -----------------ttggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              ------------------------------ggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatc
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      ------------------------------------------------------tccgttggtgaaccagcggagggatc
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  ---------------------------------------------------------------------------ggatc
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             attacagagttgcaaaactcccacaaaccatcgcgaatcttacccgtacggttgcctcggcgctggcggt-------ccg
+    MN219591.1_Xylaria_corniformis                           attaaagagttctataactcc--caaacccatgtgaacat--accctac-gttgcctcggca--ggtcgtgcctaccccg
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            attaaagagttctataactcc--caaacccatgtgaacat--accttac-gttgcctcggca--ggtcgtgcctaccccg
+    KP133498.1_Xylaria_scruposa_isolate_866                  attaaagagttctataactcc--c-aacccatgtgaacat--accgtac-gttgcctcggca--tgctgcatctaccctg
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggnn--ggctgcatct-ccctg
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcgtct-ccctg
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcatct-ccctg
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcatct-ccctg
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcatct-ccctg
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcgtct-ccctg
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  attaaagagttttataactcc--caaacccatgtgaacat--accgtac-gttgcctcggca--ggctgcgtct-ccctg
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             gaaggccctcgggcccccccggatcctcgggcctcccgctcg-cgggaggctgc--------ccgccggagcgccgaaac
+    MN219591.1_Xylaria_corniformis                           tagcgccct---accctgtagga---------------cctacccggtagttgcgggtaagcctgccggcggccc---ac
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            tagcgtcct---accctgtagga---------------cctacccggtagacgcgggtaagcctgccggcggccc---ac
+    KP133498.1_Xylaria_scruposa_isolate_866                  tgagatcct---accctgtagga---------------cttacctgggaggtgcgctaaagtctgccggcggccc---aa
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  tgaggtcct---accctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcggccc---at
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      tgaggtcct---accctgtaagg---------------cttatcgggaagatgcactaaagcctgccggcggccc---at
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          tgaggtcct---accctgtaggatgttacgctgtaaggcttagcgggaagatgcattaaagcctgccggcggccc---at
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          tgaggtcct---accctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcggccc---at
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              tgaggtcct---accctgtaggatgctacgctgtaaggcttagcgggaagatgcattaaagcctgccggcggccc---at
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      tgaggtctt---accctgtaggacgctacgctgtaaggcttatcgggaagatgcactaaagcctgccggcggccc---at
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  tgatgtctt---accctgtaggacgctacgctgtaaggcttatcgggaagatgcactaaagcctgccggcggccc---at
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             caaactcttgatattttatgtctctctgagtaaacttttaaataagtcaaaactttcaacaacggatctcttggttctgg
+    MN219591.1_Xylaria_corniformis                           gaaactctgtttagtat-tg-aattctgaacctataactaaataagttaaaactttcaacaacggatctcttggttctgg
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            gaaactctgtttagtat-tg-aattctgaacctataactaaataagttaaaactttcaacaacggatctcttggttctgg
+    KP133498.1_Xylaria_scruposa_isolate_866                  ctaactctgtctatttt-tg-aattctgaggttataa-taaatatgttaaaactttcaacaacggatctcttggttctgg
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  taaactctgtttatttt-tgaaattctgaggctataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      tacactctgtttatttt-tg-aattctgaggctataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          taaactctgtttatttt-tg-aattctgaggctataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          taaactctgtttatttt-tgaaattctgaggctataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              taaactctgtttatttt-tgaaattctgaggctataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      taaactctgtttatttt-tg-aattctgaggttataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  taaactctgtttatttt-tg-aattctgaggttataa-taaataagttaaaactttcaacaacggatctcttggttctgg
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcaca
+    MN219591.1_Xylaria_corniformis                           catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcaca
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcaca
+    KP133498.1_Xylaria_scruposa_isolate_866                  catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattta--gaatcatcgaatctttgaacgcaga
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  catcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaatttagtgaatcatcgaatctttgaacgcaca
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             ttgcgctcgccagtattctggcgagcatgcctgttcgagcg-tcattt-caaccatcaagctc----tgctt-gcgttgg
+    MN219591.1_Xylaria_corniformis                           ttgcgcccattagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcctctgttgcttagtgttgg
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            ttgcgcccattagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    KP133498.1_Xylaria_scruposa_isolate_866                  ttgcgcccattagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  ttgcgcccactagtattctagtggggatgcctgttcgagcgatcatttacaacccttac-cccctgttgcttagtgttgg
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  ttgcgcccactagtattctagtgggcatgcctgttcgagcg-tcattt-caacccttaagcccctgttgcttagtgttgg
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             ggatccgcggctgcccgcggtccctcaaaaacagtggcgggctcgctagtcacaccgagcgtagtaa-ctctacatcgct
+    MN219591.1_Xylaria_corniformis                           gagcctacggtaatag-tagctcctgaaagttagtggcggagtcggttcacactctagacgtagtagattttatctcgcc
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            gagcctacggtaatag-tagctcctgaaagttagtggcggagtcggttcacactctagacgtagtagattttatctcgcc
+    KP133498.1_Xylaria_scruposa_isolate_866                  gagcctacggt-atcg-tagctcctcaaatatagtggcggagtcggttcacactctagacgtagtagattctatctcgcc
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  ag--ctacggtcatcgttagctcctcaaatgtagtg--cgagttggttcacactctagacgtagtggtttttatctcgcc
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      gagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          gagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          gagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              gagcctacggtcagcg-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      gagcctacggttaccg-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  gagcctacggttacag-tagctcctcaaatgtagtggcggagttggttcacactctagacgtagtaatttttatctcgcc
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             atggtcgtgcggcgggttcttgccgtaaaaccccccaa--tttctaaggttgacc-------------------------
+    MN219591.1_Xylaria_corniformis                           tatcagttggaccggtcccctgccgtaaaaccccctaa-tttctaaaggttgacctcggatcaggtaggaatacccgctg
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            tatcagttggaccggtcccttgccgtaaaaccacctaa-tttctaaaggttgacctcggatcaggtaggaatacccgctg
+    KP133498.1_Xylaria_scruposa_isolate_866                  tttgagttggaccggtcccctgccgtaaaacccccctattttataaaggttgacctcggatcaggtaggaatacccgctg
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  tgtgagttggaccggtccctcgccgtaaaaccccctaaaatttt------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      tgtgagttggaccggtccctcgccgtaaaaccccccaaaattttaaaggttgacctcggatcaggtaggaatrccsgctk
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          tgtgagttggaccggtccctcgccgtaaaacccccaaaaattttaaaggttgacctcggatcaggtaggaatacccgctg
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          tgtgagttggaccggtccctcgccgtaaaacccccaaaaattttaaaggttgacctcggatcaggtaggaatacccgctg
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              tgtgagttggaccggtccctcgccgtaaaacccccaaaaatt-taaaggttgacctcggatcaggtaggaatacccgctg
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      tgtgagttggaccggtccctcgccgtaaaaccccctaaaattttaaaggttgacctcggatcaggtaggaatacccgctg
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  tgtgagttggactggtccctcgccgtaaaaccccccaaaattttaaaggttgacctcggatcaggtaggaatacccgctg
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             --------------------------------------------------------------------------------
+    MN219591.1_Xylaria_corniformis                           aacttaagcatatcaataagcggaggaaaagaaaccaacagggattg---------------------------------
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            aacttaagcatatcaataa-------------------------------------------------------------
+    KP133498.1_Xylaria_scruposa_isolate_866                  aacttaagcatatcaataagcggagga-----------------------------------------------------
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  --------------------------------------------------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      aacttaagcatat-------------------------------------------------------------------
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          aacttaagcatatcaataagcggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaacagctc
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          aacttaagcatatcaataagcggaggaa----------------------------------------------------
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              aacttaagcatatcaataagcggagga-----------------------------------------------------
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      aacttaagcatatcaataagcggagg------------------------------------------------------
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  aacttaagcatatcaataagcggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaacagctc
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             --------------------------------------------------------------------------------
+    MN219591.1_Xylaria_corniformis                           --------------------------------------------------------------------------------
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            --------------------------------------------------------------------------------
+    KP133498.1_Xylaria_scruposa_isolate_866                  --------------------------------------------------------------------------------
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  --------------------------------------------------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      --------------------------------------------------------------------------------
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          aaatttgaaatctggccctcgggtccgagttgtaatttgtagaggatgc-ttttggcgcggtgccttccgagttccctgg
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          --------------------------------------------------------------------------------
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              --------------------------------------------------------------------------------
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      --------------------------------------------------------------------------------
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  aaatttgaaatctggccctcgggtccgagttgtaatttgtagaggatgctttttggcgcggtgccttccgagttccctgg
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             --------------------------------------------------------------------------------
+    MN219591.1_Xylaria_corniformis                           --------------------------------------------------------------------------------
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            --------------------------------------------------------------------------------
+    KP133498.1_Xylaria_scruposa_isolate_866                  --------------------------------------------------------------------------------
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  --------------------------------------------------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      --------------------------------------------------------------------------------
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          aacgggacgccttagagggtgagagccccgtatggttggacaccaagcctctgtatagctccttcgacgagtcgagtagt
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          --------------------------------------------------------------------------------
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              --------------------------------------------------------------------------------
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      --------------------------------------------------------------------------------
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  aacgggacgccttagagggtgagagccccgtatggttggacaccaagcctctgtatagctcccttcgacga---------
+
+    NR_159859.1_Neurospora_cratophora_CBS_558.94             ------------------------------------------
+    MN219591.1_Xylaria_corniformis                           ------------------------------------------
+    MG098261.1_Xylaria_longipes_strain_NW-FVA2228            ------------------------------------------
+    KP133498.1_Xylaria_scruposa_isolate_866                  ------------------------------------------
+    AF163036.1_Xylaria_hypoxylon_CBS_590.72                  ------------------------------------------
+    JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751      ------------------------------------------
+    MT661488.1_Xylaria_polymorpha_strain_DSM_105756          ttgggaatgctgctctaaatgggaggtaaatttcttctaaag
+    MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229          ------------------------------------------
+    MW447065.1_Xylaria_polymorpha_strain_FeC105              ------------------------------------------
+    MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02      ------------------------------------------
+    MK595684.1_Xylaria_sp._isolate_MBD_3013                  ------------------------------------------
+  ;
+END;
+begin mrbayes;
+ set autoclose=yes;
+ prset brlenspr=unconstrained:exp(10.0);
+ prset shapepr=exp(1.0);
+ prset tratiopr=beta(1.0,1.0);
+ prset statefreqpr=dirichlet(1.0,1.0,1.0,1.0);
+ lset nst=2 rates=gamma ngammacat=4;
+ mcmcp ngen=1000000 samplefreq=10 printfreq=100 nruns=1 nchains=3 savebrlens=yes;
+ outgroup NR_159859.1_Neurospora_cratophora_CBS_558.94;
+end;

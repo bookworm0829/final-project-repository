@@ -1,0 +1,39 @@
+<!-- The following are distance and parsimony trees for the its xylaria gene data set for my final project for files aligned with muscle -->
+---
+output:
+  word_document: default
+  html_document: default
+---
+**Loading in packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+
+```
+**converting .fasta to dnabin, then assigning model and ladderizing the tree**
+```{r}
+library(ape)
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta")
+D <- dist.dna(dna, model="TN93")
+tre <- nj(D)
+tre
+tre <- ladderize(tre)
+plot(tre, cex=.9, main = "Distance Tree using Muscle alignment")
+```
+
+
+**Everything above here is script for the distance based tree, everything below here is script for the parsimony based tree**
+```{r}
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta")
+dna2 <- as.phyDat(dna)
+#Searching for the tree with maximum parsimony:**
+tre.ini <- nj(dist.dna(dna,model="raw"))
+parsimony(tre.ini, dna2)
+tre.pars <- optim.parsimony(tre.ini, dna2)
+plot(tre, cex=.9, main = "Parsimony Tree using Muscle alignment")
+```
+
+

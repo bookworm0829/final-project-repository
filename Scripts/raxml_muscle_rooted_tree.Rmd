@@ -1,0 +1,40 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-04-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**installing packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+```
+
+```{r}
+# Load necessary packages
+# install.packages("ape")
+library(ape)
+
+# Read the tree file
+tree_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned.fasta.raxml.bestTree"
+tree <- read.tree(tree_file)
+
+# Plot the tree and root the tree
+rooted_tree <- root(tree, outgroup = "NR_159859.1_Neurospora_cratophora", resolve.root = TRUE)
+#checking to see if the tree is rooted
+is.rooted(rooted_tree)
+plot(rooted_tree, main = "Rooted tree using muscle and Raxml-ng")
+
+```
+<!-- new_tip_labels <- c("NR_159859.1_Neurospora_cratophora", "MN219591.1_Xylaria_corniformis", "MG098261.1_Xylaria_longipes_strain_NW-FVA2228", "KP133498.1_Xylaria_scruposa_isolate_866", "AF163036.1_Xylaria_hypoxylon", "JX256828.1_Xylaria_schweinitzii", "MT661488.1_Xylaria_polymorpha_strain_DSM_105756", "MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229", "MW447065.1_Xylaria_polymorpha_strain_FeC105", "MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02", "MK595684.1_Xylaria_sp._isolate_MBD_3013") -->
+
+
+
+

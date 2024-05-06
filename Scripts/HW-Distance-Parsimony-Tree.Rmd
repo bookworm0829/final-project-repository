@@ -47,6 +47,7 @@ tre.pars <- optim.parsimony(tre.ini, dna2)
 **Plotting tree**
 ```{r}
 plot(tre.pars, cex=0.4)
-title("Xylaria parsimony tree")
+
+
 ```
 

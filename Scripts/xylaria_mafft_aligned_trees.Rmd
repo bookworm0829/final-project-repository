@@ -1,0 +1,46 @@
+<!-- The following are distance and parsimony trees for the its xylaria gene data set for my final project for files aligned with maaft -->
+
+---
+title: "Xylaria_maaft_aligned_trees"
+output: html_document
+date: "2024-04-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**Loading in packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+
+```
+**converting .fasta to dnabin, then assigning model and ladderizing the tree**
+```{r}
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned.fasta")
+D <- dist.dna(dna, model="TN93")
+tre <- nj(D)
+tre
+tre <- ladderize(tre)
+plot(tre, cex=.8)
+title("Distance tree using mafft alignment")
+```
+**Everything above here is script for the distance based tree, everything below here is script for the parsimony based tree**
+
+```{r}
+dna <- fasta2DNAbin(file="/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned.fasta")
+dna2 <- as.phyDat(dna)
+tre.ini <- nj(dist.dna(dna,model="raw"))
+parsimony(tre.ini, dna2)
+tre.pars <- optim.parsimony(tre.ini, dna2)
+plot(tre.pars, cex=0.8) 
+title("Parsimony tree using mafft alignment")
+```
+
+
+
+
+

@@ -1,0 +1,76 @@
+---
+title: "Converting aligned fasta files to .nex files"
+output: html_document
+date: "2024-04-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**installing packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+library(seqinr)
+```
+**made a duplicate copy of my muscle and mafft aligned fasta files to this path to reformat the sequences in order to eventually turn them into .nex files, the paths for those files are as follows**
+/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned_copy.fasta 
+/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_copy.fasta
+
+
+**now i convert them to nex files**
+**starting with maaft**
+```{r}
+fasta_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_copy.fasta"
+fasta_data <- read.FASTA(fasta_file)
+
+# Specify the output Nexus file
+nexus_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_end.nex"
+
+# Write the data to a Nexus file
+write.nexus.data(fasta_data, file = nexus_file)
+```
+
+```{r}
+#Removing blanks spaces causing probblems in mrbayes**
+
+#Read the Nexus file**
+nexus_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_end.nex"
+nexus_data <- readLines(nexus_file)
+
+#Remove leading blank spaces from each sequence**
+nexus_data <- gsub("^\\s+", "", nexus_data)
+
+#Write the modified Nexus data back to the file**
+writeLines(nexus_data, con = nexus_file)
+```
+
+**then with muscle**
+```{r}
+fasta_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned_copy.fasta"
+fasta_data <- read.FASTA(fasta_file)
+
+# Specify the output Nexus file
+nexus_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned_end.nex"
+
+# Write the data to a Nexus file
+write.nexus.data(fasta_data, file = nexus_file)
+```
+
+```{r}
+#Removing blanks spaces causing probblems in mrbayes**
+
+#Read the Nexus file**
+nexus_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned_copy.fasta"
+nexus_data <- readLines(nexus_file)
+
+#Remove leading blank spaces from each sequence**
+nexus_data <- gsub("^\\s+", "", nexus_data)
+
+#Write the modified Nexus data back to the file**
+writeLines(nexus_data, con = nexus_file)
+```

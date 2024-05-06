@@ -1,0 +1,72 @@
+---
+title: "analyzing_nex_t_files"
+output: html_document
+date: "2024-04-26"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+**installing packages**
+```{r}
+library(stats)
+library(ade4)
+library(ape)
+library(adegenet)
+library(phangorn)
+```
+**looking at .nex.con.t file for muscle aligned file**
+```{r}
+# Load necessary packages
+# install.packages("ape")
+library(ape)
+
+# Read the tree file
+tree_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_muscle2_aligned_end.nex.con.tre"
+tree <- read.nexus(tree_file)
+
+# Plot the tree and root the tree
+rooted_tree <- root(tree, outgroup = "NR_159859.1_Neurospora_cratophora_CBS_558.94", resolve.root = TRUE)
+is.rooted(rooted_tree)
+plot(rooted_tree, main = "Rooted tree using muscle and Mrbayes")
+```
+
+
+
+
+
+**looking at .nex.con.t file for mafft aligned file**
+```{r}
+# Load necessary packages
+# install.packages("ape")
+library(ape)
+
+# Read the tree file
+tree_file <- "/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_end.nex.con.tre"
+tree <- read.nexus(tree_file)
+
+# Plot the tree and root the tree
+rooted_tree <- root(tree, outgroup = "NR_159859.1_Neurospora_cratophora_CBS_558.94", resolve.root = TRUE)
+is.rooted(rooted_tree)
+plot(rooted_tree, main = "Rooted tree using mafft and Mrbayes")
+```
+
+
+
+
+```[r]
+# Load necessary libraries if not already installed
+# install.packages("ggplot2")
+
+# Load the data
+nex_data <- read.table("/Users/robertoregalado/Desktop/final-project-repository/Data/xylaria_maaft2_aligned_end.nex.p", header = TRUE)
+
+# Check the structure of the data
+str(nex_data)
+
+# Plot the posterior probabilities
+# For example, let's visualize the posterior probabilities of the "LnPr" column
+hist(nex_data$LnPr, main = "Posterior Probabilities Histogram", xlab = "Posterior Probabilities (LnPr)")
+
+# You can also create other types of plots based on your analysis needs, such as density plots or scatter plots
+```

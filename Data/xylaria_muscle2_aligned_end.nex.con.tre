@@ -1,0 +1,34 @@
+#NEXUS
+[ID: 6329498889]
+begin taxa;
+	dimensions ntax=11;
+	taxlabels
+		NR_159859.1_Neurospora_cratophora_CBS_558.94
+		MN219591.1_Xylaria_corniformis
+		MG098261.1_Xylaria_longipes_strain_NW-FVA2228
+		KP133498.1_Xylaria_scruposa_isolate_866
+		AF163036.1_Xylaria_hypoxylon_CBS_590.72
+		JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751
+		MT661488.1_Xylaria_polymorpha_strain_DSM_105756
+		MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229
+		MW447065.1_Xylaria_polymorpha_strain_FeC105
+		MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02
+		MK595684.1_Xylaria_sp._isolate_MBD_3013
+		;
+end;
+begin trees;
+	translate
+		1	NR_159859.1_Neurospora_cratophora_CBS_558.94,
+		2	MN219591.1_Xylaria_corniformis,
+		3	MG098261.1_Xylaria_longipes_strain_NW-FVA2228,
+		4	KP133498.1_Xylaria_scruposa_isolate_866,
+		5	AF163036.1_Xylaria_hypoxylon_CBS_590.72,
+		6	JX256828.1_Xylaria_schweinitzii_voucher_HMJAU_22751,
+		7	MT661488.1_Xylaria_polymorpha_strain_DSM_105756,
+		8	MG098262.1_Xylaria_polymorpha_strain_NW-FVA2229,
+		9	MW447065.1_Xylaria_polymorpha_strain_FeC105,
+		10	MN846336.1_Xylaria_polymorpha_isolate_TW07032019_02,
+		11	MK595684.1_Xylaria_sp._isolate_MBD_3013
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+00,prob(percent)="100"]:3.806674e-01[&length_mean=3.87913070e-01,length_median=3.80667400e-01,length_95%HPD={2.72225100e-01,5.18398700e-01}],(((5[&prob=1.00000000e+00,prob(percent)="100"]:2.084278e-02[&length_mean=2.15509847e-02,length_median=2.08427800e-02,length_95%HPD={9.02101800e-03,3.54849000e-02}],7[&prob=1.00000000e+00,prob(percent)="100"]:4.251544e-03[&length_mean=4.84891810e-03,length_median=4.25154400e-03,length_95%HPD={2.70817100e-04,1.07264100e-02}],8[&prob=1.00000000e+00,prob(percent)="100"]:1.128221e-03[&length_mean=1.65315244e-03,length_median=1.12822100e-03,length_95%HPD={8.59266000e-08,4.94366700e-03}],9[&prob=1.00000000e+00,prob(percent)="100"]:1.167983e-03[&length_mean=1.68072461e-03,length_median=1.16798300e-03,length_95%HPD={1.24055300e-08,5.02827200e-03}])[&prob=8.86054853e-01,prob(percent)="89"]:8.362990e-03[&length_mean=8.87541796e-03,length_median=8.36299000e-03,length_95%HPD={1.60998900e-03,1.75230900e-02}],6[&prob=1.00000000e+00,prob(percent)="100"]:7.003149e-03[&length_mean=7.67358496e-03,length_median=7.00314900e-03,length_95%HPD={1.28238100e-03,1.54572700e-02}])[&prob=6.00858655e-01,prob(percent)="60"]:5.027599e-03[&length_mean=5.71312629e-03,length_median=5.02759900e-03,length_95%HPD={1.66594000e-06,1.31662500e-02}],(10[&prob=1.00000000e+00,prob(percent)="100"]:2.632891e-03[&length_mean=3.23921024e-03,length_median=2.63289100e-03,length_95%HPD={4.34311200e-07,8.15501200e-03}],11[&prob=1.00000000e+00,prob(percent)="100"]:7.108844e-03[&length_mean=7.69793386e-03,length_median=7.10884400e-03,length_95%HPD={1.37181000e-03,1.51740200e-02}])[&prob=9.30734257e-01,prob(percent)="93"]:7.095727e-03[&length_mean=7.69387111e-03,length_median=7.09572700e-03,length_95%HPD={6.22511000e-05,1.60206000e-02}])[&prob=7.36563512e-01,prob(percent)="74"]:1.994116e-02[&length_mean=2.03989445e-02,length_median=1.99411600e-02,length_95%HPD={4.76958000e-06,3.97984200e-02}],((2[&prob=1.00000000e+00,prob(percent)="100"]:8.188049e-03[&length_mean=8.75944276e-03,length_median=8.18804900e-03,length_95%HPD={1.35961600e-03,1.72275400e-02}],3[&prob=1.00000000e+00,prob(percent)="100"]:6.308456e-03[&length_mean=6.96440047e-03,length_median=6.30845600e-03,length_95%HPD={5.99122300e-04,1.49615500e-02}])[&prob=1.00000000e+00,prob(percent)="100"]:5.869785e-02[&length_mean=5.93968771e-02,length_median=5.86978500e-02,length_95%HPD={3.59048900e-02,8.45810800e-02}],4[&prob=1.00000000e+00,prob(percent)="100"]:3.028660e-02[&length_mean=3.10213521e-02,length_median=3.02866000e-02,length_95%HPD={1.34588600e-02,4.87157300e-02}])[&prob=7.26043653e-01,prob(percent)="73"]:2.001635e-02[&length_mean=2.03849775e-02,length_median=2.00163500e-02,length_95%HPD={5.73060600e-07,3.98297500e-02}]);
+end;
